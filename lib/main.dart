@@ -327,8 +327,14 @@ class _MyHomePageState extends State<MyHomePage> {
                       count: 50,
                       image: 'assets/Изображение WhatsApp 2023-02-22 в 17.39.55.jpg',
                       text: '25 тюльпанов',
+                    ),
+                    FlowerWidget(
+                      price: "2050 руб",
+                      title: '21 тюльпан',
+                      count: 50,
+                      image: 'assets/Изображение WhatsApp 2023-02-22 в 17.39.21.jpg',
+                      text: '21 тюльпан',
                     )
-
                   ],
                 ),
                 SelectableText(
