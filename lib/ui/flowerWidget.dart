@@ -21,7 +21,7 @@ class FlowerWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: (){
-         String message = "Здравствуйте, хочу заказать у вас " + title + " тюльпаны";
+         String  message = "Здравствуйте, хочу заказать у вас " + title;
          launch("whatsapp://send?text=$message&phone=+79056658777"); // "whatsapp://send?text=Hello World!&phone=+79101300100"   "https://api.whatsapp.com/send?phone=79101300100"
 
       },
